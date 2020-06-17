@@ -1,0 +1,45 @@
+#three-section{
+    background: #f8f9fd !important;
+    padding: 60px 0;
+    .intro-box{
+        .icon {
+            width: 60px;
+            height: 60px;
+            border: 2px solid #e6e6e6;
+            border-radius: 50%;
+            margin-top: 20px;
+            span {
+                color: #000000;
+                transform: rotate(90deg);
+            }
+        }
+        .text {
+            width: calc(100% - 60px);
+            h4{
+                font-size: 16px;
+                line-height: 1.5;
+                color: rgba(0, 0, 0, 0.8);
+                font-weight: 400;
+            }
+            span{
+                font-size: 14px;
+                line-height: 1.8;
+                font-weight: 400;
+                color: gray;
+            }
+        }
+        .btn{
+            background: $theme-color;
+            border: 1px solid $theme-color;
+            color: $white;
+            padding: 12px 16px;
+            cursor: pointer;
+            border-radius: 4px;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+            font-size: 11px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+    }
+}

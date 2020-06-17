@@ -1,0 +1,24 @@
+#section-counter{
+    padding: 60px 0;
+    .counter-text{
+        .text {
+            position: relative;
+            .number {
+                line-height: 1;
+                font-weight: 500;
+                font-size: 34px;
+                color: rgba(0, 0, 0, 0.8);
+                display: block;
+                margin-bottom: 10px;
+            }
+            span {
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 14px;
+                line-height: 1.8;
+                font-weight: 400;
+                color: gray;
+            }
+        }
+    }
+}

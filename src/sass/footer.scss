@@ -1,0 +1,60 @@
+.footer{
+    background: #2a2c30;
+    padding-top: 50px;
+    .footer-logo{
+        .navbar-brand {
+            color: $white;
+            display: inline-block;
+            float: none;
+            font-family: "Philosopher",sans-serif;
+            font-size: 24px;
+            font-weight: 500;
+            height: 100%;
+            letter-spacing: 0.2em;
+            padding-left: 0;
+            padding-top: 0;
+            padding-bottom: .3125rem;
+            margin-right: 1rem;
+        }
+        p {
+            color: $white;
+            font-size: 12px;
+            letter-spacing: 1px;
+            font-weight: 300;
+            line-height: 2;
+            margin-bottom: 20px;
+        }
+    }
+    .list-menu{
+        >h4 {
+            color: $white;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            line-height: 2;
+        }
+    }
+    .list-unstyled {
+        padding-left: 0;
+        list-style: none;
+        letter-spacing: 1px;
+        margin-top: 0;
+        margin-bottom: 16px;
+        li {
+            color: #626262;
+            font-size: 13px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            line-height: 30px;
+            text-transform: capitalize;
+            a {
+                color: $white;
+                font-size: 12px;
+                padding-left: 5px;
+                text-decoration: none;
+                letter-spacing: 0;
+            }
+        }
+    }
+}
